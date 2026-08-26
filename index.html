@@ -21,12 +21,14 @@
                 margin: 0 auto;
                 border: 5px solid #040303;
                 padding: 16px;
+                display: flex;
             }
             img {
                 width: 80px;
                 height: 80px;
-                object-fit: cover;
-                display: inline-block;
+            }
+            .artigo-autor{
+                font-weight: bold;
             }
         </style>
     </head>
@@ -38,9 +40,12 @@
 
         <main>
             <img src="imagem-blog.png" alt="Imagem de capa minimalista em tons de verde e branco. Do lado esquerdo, lê-se o título 'esportes com bola' em destaque. Do lado direito, há uma ilustração estilizada de um jogador em movimento cercado por bolas de futebol, basquete, vôlei, tênis e futebol americano.">   
-            <h2>Primeiro Esporte</h2>
-            <p>Conheça sobre o futebol, atualmente um dos se não o esporte mais conhecido do mundo</p>
-            <p>Por: Victor Hugo Ribeiro Baticioto</p>
+            <div>
+                
+                <h2>Primeiro Esporte</h2>
+                <p>Conheça sobre o futebol, atualmente um dos se não o esporte mais conhecido do mundo</p>
+                <p  class="artigo-autor"> Por: Victor Hugo Ribeiro Baticioto</p>
+            </div>
         </main>
 </body>
 </html>
